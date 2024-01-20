@@ -23,7 +23,7 @@ const PostList = ({ posts }) => {
 
                 {/* border-white/10 and text-white/30 */}
                 {firstThreePosts.map(post => {
-                    console.log(post);
+            
                     // destructure post
                     const { id, date, title, description } = post;
                     return (
